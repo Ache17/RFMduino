@@ -1,11 +1,11 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*%
-%TF.CreationDate,2021-01-06T17:39:48+00:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,5.1.6+dfsg1-1*%
+%TF.CreationDate,2021-02-21T15:05:16+01:00*%
 %TF.ProjectId,RFMduino,52464d64-7569-46e6-9f2e-6b696361645f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-01-06 17:39:48*
+G04 Created by KiCad (PCBNEW 5.1.6+dfsg1-1) date 2021-02-21 15:05:16*
 %MOMM*%
 %LPD*%
 G01*

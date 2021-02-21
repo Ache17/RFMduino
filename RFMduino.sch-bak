@@ -72,7 +72,7 @@ F 3 "" H 3150 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Boards:ARDUINO_UNO_R3 B1
+L RFMduino-rescue:ARDUINO_UNO_R3-SparkFun-Boards B1
 U 1 1 5FF5CDB0
 P 4000 3150
 F 0 "B1" H 4000 4610 45  0000 C CNN
@@ -97,7 +97,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 3550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Capacitors:0.1UF-0603-25V-_+80_-20%_ C2
+L RFMduino-rescue:0.1UF-0603-25V-_+80_-20%_-SparkFun-Capacitors C2
 U 1 1 5FF71844
 P 3950 5500
 F 0 "C2" H 4058 5592 45  0000 L CNN
@@ -109,7 +109,7 @@ F 4 "CAP-00810" H 4058 5466 60  0001 L CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Capacitors:0.1UF-0603-25V-_+80_-20%_ C1
+L RFMduino-rescue:0.1UF-0603-25V-_+80_-20%_-SparkFun-Capacitors C1
 U 1 1 5FF73E0B
 P 3000 5500
 F 0 "C1" H 3108 5645 45  0000 L CNN
@@ -190,7 +190,7 @@ F 3 "" H 5250 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Capacitors:0.1UF-0603-25V-_+80_-20%_ C3
+L RFMduino-rescue:0.1UF-0603-25V-_+80_-20%_-SparkFun-Capacitors C3
 U 1 1 5FF800AD
 P 5250 5450
 F 0 "C3" H 5358 5542 45  0000 L CNN
@@ -304,7 +304,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 5200 6900 5200
 $Comp
-L SparkFun-IC-Comms:HEX_CONVERTER U2
+L RFMduino-rescue:HEX_CONVERTER-SparkFun-IC-Comms U2
 U 1 1 5FF6FA17
 P 6400 5500
 F 0 "U2" H 6400 6160 45  0000 C CNN
@@ -362,7 +362,7 @@ F 3 "" H 7200 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Capacitors:10UF-0603-6.3V-20% C4
+L RFMduino-rescue:10UF-0603-6.3V-20%-SparkFun-Capacitors C4
 U 1 1 5FF94EA3
 P 7200 2950
 F 0 "C4" H 7308 3042 45  0000 L CNN
@@ -417,7 +417,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 3400 8950 3400
 $Comp
-L SparkFun-RF:RFM69HCW-915 U3
+L RFMduino-rescue:RFM69HCW-915-SparkFun-RF U3
 U 1 1 5FF9D9F9
 P 8450 3000
 F 0 "U3" H 8450 3860 45  0000 C CNN
@@ -443,7 +443,7 @@ RST_5V
 Text Label 4400 5550 0    50   ~ 0
 CS_5V
 $Comp
-L SparkFun-Resistors:100KOHM-0603-1_10W-1% R1
+L RFMduino-rescue:100KOHM-0603-1_10W-1%-SparkFun-Resistors R1
 U 1 1 5FFB09FC
 P 4750 5250
 F 0 "R1" H 4900 5300 45  0000 C CNN
@@ -455,7 +455,7 @@ F 4 "RES-07828" H 4750 5371 60  0001 C CNN "Field4"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SparkFun-Resistors:100KOHM-0603-1_10W-1% R2
+L RFMduino-rescue:100KOHM-0603-1_10W-1%-SparkFun-Resistors R2
 U 1 1 5FFB5913
 P 4950 5350
 F 0 "R2" H 5100 5400 45  0000 C CNN
@@ -469,7 +469,7 @@ $EndComp
 Wire Wire Line
 	4400 5550 4950 5550
 $Comp
-L SparkFun-PowerSymbols:5V #SUPPLY01
+L RFMduino-rescue:5V-SparkFun-PowerSymbols #SUPPLY01
 U 1 1 5FFB93A2
 P 3100 3050
 F 0 "#SUPPLY01" H 3150 3050 45  0001 L BNN
@@ -482,7 +482,7 @@ $EndComp
 Wire Wire Line
 	3500 3050 3100 3050
 $Comp
-L SparkFun-PowerSymbols:5V #SUPPLY02
+L RFMduino-rescue:5V-SparkFun-PowerSymbols #SUPPLY02
 U 1 1 5FFBC18F
 P 4750 5000
 F 0 "#SUPPLY02" H 4800 5000 45  0001 L BNN
@@ -493,7 +493,7 @@ F 3 "" H 4750 5000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-PowerSymbols:5V #SUPPLY03
+L RFMduino-rescue:5V-SparkFun-PowerSymbols #SUPPLY03
 U 1 1 5FFBD172
 P 4950 5000
 F 0 "#SUPPLY03" H 5000 5000 45  0001 L BNN
@@ -510,7 +510,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 3300 9550 3300
 $Comp
-L 1053354-1:1053354-1 J4
+L RFMduino-rescue:1053354-1-1053354-1 J4
 U 1 1 5FFC4663
 P 9750 3300
 F 0 "J4" H 10150 3565 50  0000 C CNN
@@ -553,7 +553,7 @@ F 3 "~" H 10550 3650 50  0001 C CNN
 $EndComp
 Connection ~ 10550 3650
 $Comp
-L SparkFun-Connectors:CONN_01 J3
+L RFMduino-rescue:CONN_01-SparkFun-Connectors J3
 U 1 1 5FFD5DF5
 P 9550 2950
 F 0 "J3" V 9466 3028 45  0000 L CNN
@@ -592,7 +592,7 @@ F 3 "" H 8950 4300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Resistors:10KOHM-0603-1_10W-1% R4
+L RFMduino-rescue:10KOHM-0603-1_10W-1%-SparkFun-Resistors R4
 U 1 1 5FFE7A4F
 P 9400 4600
 F 0 "R4" V 9358 4668 45  0000 L CNN
@@ -604,7 +604,7 @@ F 4 "RES-00824" V 9484 4668 60  0001 L CNN "Field4"
 	0    -1   1    0   
 $EndComp
 $Comp
-L SparkFun-Resistors:10KOHM-0603-1_10W-1% R3
+L RFMduino-rescue:10KOHM-0603-1_10W-1%-SparkFun-Resistors R3
 U 1 1 5FFECF5C
 P 8500 4600
 F 0 "R3" V 8458 4668 45  0000 L CNN
@@ -649,7 +649,7 @@ MISO_5V
 Wire Wire Line
 	9800 4900 9400 4900
 $Comp
-L SparkFun-PowerSymbols:5V #SUPPLY05
+L RFMduino-rescue:5V-SparkFun-PowerSymbols #SUPPLY05
 U 1 1 5FFFCCB4
 P 8500 4300
 F 0 "#SUPPLY05" H 8550 4300 45  0001 L BNN
@@ -672,16 +672,12 @@ F 3 "~" H 6150 1300 50  0001 C CNN
 	1    6150 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 1200 5750 1200
-Wire Wire Line
-	5950 1300 5750 1300
 Text Label 5750 1200 0    50   ~ 0
 SDA
 Text Label 5750 1300 0    50   ~ 0
 SCL
 $Comp
-L SparkFun-PowerSymbols:5V #SUPPLY04
+L RFMduino-rescue:5V-SparkFun-PowerSymbols #SUPPLY04
 U 1 1 6001E45F
 P 5600 1400
 F 0 "#SUPPLY04" H 5650 1400 45  0001 L BNN
@@ -731,4 +727,58 @@ Wire Wire Line
 	3500 4250 3450 4250
 Wire Wire Line
 	3450 4250 3450 4300
+$Comp
+L RFMduino-rescue:10KOHM-0603-1_10W-1%-SparkFun-Resistors R?
+U 1 1 60353210
+P 5300 1000
+F 0 "R?" V 5258 1068 45  0000 L CNN
+F 1 "10k" V 5342 1068 45  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5300 1150 20  0001 C CNN
+F 3 "" H 5300 1000 60  0001 C CNN
+F 4 "RES-00824" V 5384 1068 60  0001 L CNN "Field4"
+	1    5300 1000
+	0    -1   1    0   
+$EndComp
+$Comp
+L RFMduino-rescue:10KOHM-0603-1_10W-1%-SparkFun-Resistors R?
+U 1 1 60355089
+P 5000 1100
+F 0 "R?" V 4958 1168 45  0000 L CNN
+F 1 "10k" V 5042 1168 45  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5000 1250 20  0001 C CNN
+F 3 "" H 5000 1100 60  0001 C CNN
+F 4 "RES-00824" V 5084 1168 60  0001 L CNN "Field4"
+	1    5000 1100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5300 1200 5950 1200
+Wire Wire Line
+	5000 1300 5950 1300
+$Comp
+L RFMduino-rescue:5V-SparkFun-PowerSymbols #SUPPLY?
+U 1 1 6035AD8B
+P 5300 700
+F 0 "#SUPPLY?" H 5350 700 45  0001 L BNN
+F 1 "5V" H 5300 870 45  0000 C CNN
+F 2 "XXX-00000" H 5300 881 60  0001 C CNN
+F 3 "" H 5300 700 60  0001 C CNN
+	1    5300 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 800  5300 700 
+$Comp
+L RFMduino-rescue:5V-SparkFun-PowerSymbols #SUPPLY?
+U 1 1 60360DE2
+P 5000 700
+F 0 "#SUPPLY?" H 5050 700 45  0001 L BNN
+F 1 "5V" H 5000 870 45  0000 C CNN
+F 2 "XXX-00000" H 5000 881 60  0001 C CNN
+F 3 "" H 5000 700 60  0001 C CNN
+	1    5000 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 700  5000 900 
 $EndSCHEMATC
